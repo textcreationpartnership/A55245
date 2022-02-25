@@ -1,0 +1,547 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A Poem on that execrable treason plotted by the papists on the 5th of November, anno 1605</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1670</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 20 KB of XML-encoded text transcribed from 8 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A55245</idno>
+            <idno type="STC">Wing P2685</idno>
+            <idno type="STC">ESTC R26890</idno>
+            <idno type="EEBO-CITATION">09570917</idno>
+            <idno type="OCLC">ocm 09570917</idno>
+            <idno type="VID">43680</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A55245)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 43680)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1337:41)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A Poem on that execrable treason plotted by the papists on the 5th of November, anno 1605</title>
+               </titleStmt>
+               <extent>13 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by John Hayes for Robert Nicholson,</publisher>
+                  <pubPlace>Cambridge [Cambridgeshire] :</pubPlace>
+                  <date>1670.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Reproduction of original in the Harvard University Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Gunpowder Plot, 1605 --  Poetry.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2010-03</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2010-04</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2010-05</date>
+            <label>Megan Marion</label>Sampled and proofread</change>
+         <change>
+            <date>2010-05</date>
+            <label>Megan Marion</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:43680:1"/>
+            <pb facs="tcp:43680:1" rendition="simple:additions"/>
+            <p>A POEM On that Execrable TREASON Plotted by the Papiſts on the 5<hi rend="sup">th</hi> of <hi>November, Anno</hi> 1605.</p>
+            <p>Flectere ſi nequeunt Superos Acheronta movebunt.</p>
+            <p>
+               <hi>CAMBRIDGE,</hi> Printed by <hi>John Hayes,</hi> Printer to the Univerſity, for <hi>Robert Nicholſon</hi> Bookſeller in <hi>Cambridge,</hi> 1670.</p>
+         </div>
+      </front>
+      <body>
+         <div type="poem">
+            <pb facs="tcp:43680:2"/>
+            <pb n="1" facs="tcp:43680:2"/>
+            <head>A Poem on that Execrable Treaſon Plotted by the Papiſts on the 5<hi rend="sup">th</hi> of <hi>November, Anno</hi> 1605.</head>
+            <lg>
+               <head>1</head>
+               <l>'<seg rend="decorInit">T</seg>Was in a day, whoſe ſmiling face</l>
+               <l>Might tempt with raviſhing delight</l>
+               <l>Heavens dwellers down to take a ſight;</l>
+               <l>Not that they it, but that it them might grace.</l>
+               <l>Flowrs, <hi>Phoenix</hi> like, from others aſhes riſe,</l>
+               <l>So freſh and fair,</l>
+               <l>As ready to prepare</l>
+               <l>A ſecond Paradiſe,</l>
+               <l>Or marry luſty earth to th' azure skies.</l>
+               <l>The ſweet breath'd <hi>Zephirus</hi> wooes</l>
+               <l>Coy <hi>Flora,</hi> and ſtill ſhow'rs,</l>
+               <l>Into her lap whole heaps of flow'rs,</l>
+               <l>Who flying pou'rs</l>
+               <l>Them on earth's face, while he poor Lover murmuring goes</l>
+               <l>Whiſp'ring out in warm ſighs his woes.</l>
+               <l>The river that e're while</l>
+               <l>Curl'd up his face in frowns, fann'd with a gentle gale,</l>
+               <l>Lets them ſhrink all</l>
+               <l>To th' dimples of a ſmile.</l>
+               <pb n="2" facs="tcp:43680:3"/>
+               <l>The loving flow'rs did bow their heads to meet,</l>
+               <l>And with officious kindneſs kiſs your feet.</l>
+               <l>'Twas in thoſe chequer'd fields, where th' chryſtall ſtreams</l>
+               <l>Of reverend <hi>Cham</hi> do ſweetly glide,</l>
+               <l>Calm as heavens face, when candid beams,</l>
+               <l>Not clouds, his face do hide:</l>
+               <l>Illuſtrious <hi>Cham</hi> (upon</l>
+               <l>Whoſe ſilver ſtreams the graces train,</l>
+               <l>And all the <hi>Muſes</hi> reign:</l>
+               <l>That one might truly call it <hi>Helicon.</hi>)</l>
+               <l>'Twas here in ſuch a charming <hi>May,</hi>
+               </l>
+               <l>(Not ſympathizing with the day)</l>
+               <l>The melancholly HEYRICKE lay;</l>
+               <l>Lay down (I cannot ſay did reſt)</l>
+               <l>For midſt of ſuch a joy his breaſt,</l>
+               <l>With ſtrangeſt Hurricanes oppreſt,</l>
+               <l>Thoſe charms that ne're before</l>
+               <l>Wanted a conquering pow'r,</l>
+               <l>Were then oppos'd: their ſubt'leſt motions ne're could move</l>
+               <l>Or e're diſpoſe his duller ſoul to love.</l>
+               <l>At laſt grief that had play'd his part,</l>
+               <l>And triumph'd o're his ſences, and his heart,</l>
+               <l>To perfect his half gotten prize,</l>
+               <l>Lock'd up his eyes;</l>
+               <l>And as cold ſleep imploy'd his ſences, ſo</l>
+               <l>A flutt'ring dream poſſeſt his fancy too.</l>
+            </lg>
+            <lg>
+               <head>2</head>
+               <l>He thought 'twas night, and not one breath</l>
+               <l>Of whiſpering air durſt ſtir abroad,</l>
+               <l>But fearfull kept within their cloſe aboad,</l>
+               <l>Sleep then was th' onely God;</l>
+               <pb n="3" facs="tcp:43680:3"/>
+               <l>Sleep younger brother unto death,</l>
+               <l>To whom grand conquerers all</l>
+               <l>Humble themſelves, and proſtrate fall;</l>
+               <l>Sleep then had univerſal conqueſt made,</l>
+               <l>And thoſe that juſt before durſt vie</l>
+               <l>With death it ſelf for victory,</l>
+               <l>Were in his fetters captive laid,</l>
+               <l>When a ſtrange noiſe broke through the air,</l>
+               <l>A noiſe that froze the ſtouteſt hearts with fear,</l>
+               <l>A noiſe that none would doubt to come</l>
+               <l>From hel's own womb.</l>
+               <l>The liſt'ning trees that juſt before</l>
+               <l>Prick'-d up their leaves to hear</l>
+               <l>Some news, ſtruck with a fear</l>
+               <l>Turn Aſpines all: heaven ſhrouds</l>
+               <l>Her but now ſhining eyes in clouds,</l>
+               <l>Ne're willing to reſtore</l>
+               <l>Her lamps for ſuch a ſight; nor ſtrange</l>
+               <l>That peace to horrour thus ſhould change:</l>
+               <l>Hells Purſuivants cut through the air,</l>
+               <l>And bid foul ſpirits all repair</l>
+               <l>To <hi>Pluto</hi>'s cell.</l>
+               <l>Strait none deny'd,</l>
+               <l>Onely thoſe that in Papiſts breaſts reſide;</l>
+               <l>For there they find a worſe (which they term better) hell.</l>
+            </lg>
+            <lg>
+               <head>3</head>
+               <l>The Councell met; Lucifer takes his Throne,</l>
+               <l>Ith' midſt; yet loweſt (for in hell</l>
+               <l>The higheſt is the loweſt ſtill)</l>
+               <l>And belching out an horrid groan,</l>
+               <l>So great that hell's ſelf ſhook,</l>
+               <l>With pride he much, but more by far with wrath did ſwell.</l>
+               <pb n="4" facs="tcp:43680:4"/>
+               <l>And viewing heaven with lightning in his eyes,</l>
+               <l>At once from out his mouth words and a thundring broke;</l>
+               <l>Muſt heaven, quoth he (nay worſe) muſt men deſpiſe</l>
+               <l>Our power? are we degenerate?</l>
+               <l>And though faln from our heaven, and hopes, by fate,</l>
+               <l>Muſt our courages fall too? ſure hel's fire</l>
+               <l>Might Chymically have refin'd,</l>
+               <l>The droſs from each polluted mind:</l>
+               <l>And make thoſe now-made-purer parts aſpire.</l>
+               <l>Thoſe calcin'd parts that dare to fly</l>
+               <l>And bruſh with their proud wings the sky.</l>
+               <l>Degenerate ſouls, go, baſely go</l>
+               <l>Beg mercy from your foe.</l>
+               <l>Oh! how I'de tear and rend my heart,</l>
+               <l>Should there lie hid in any part</l>
+               <l>Such poyſonous thoughts, ſhould heaven now offer's grace,</l>
+               <l>I'de dart it back into his face.</l>
+               <l>Recall once more into your thought,</l>
+               <l>How I your Captain fought</l>
+               <l>Againſt heavens arms; and though I could not get</l>
+               <l>The victory, heaven never aw'd me yet.</l>
+               <l>In my own hell I'de fry t' eternity,</l>
+               <l>Once but to try</l>
+               <l>With heaven again for victory.</l>
+               <l>Though I knew I could nothing gain,</l>
+               <l>But to ſink down to hell again,</l>
+               <l>The enterprize would doubly pay my pain.</l>
+               <l>I'le do't: I'le Gyant-like his Palace ſcale,</l>
+               <l>And make his priſon turn his Jail:</l>
+               <l>Let him to' said his ſtarrs go hire,</l>
+               <l>They'l ſerve for torches, and for's funeral fire.</l>
+               <pb n="5" facs="tcp:43680:4"/>
+               <l>Heavens great I muſt confeſs; and were't not ſo</l>
+               <l>I'de ſcorn to own it for my foe.</l>
+               <l>The greater is the foe 'twill be</l>
+               <l>(Once got) the greater victory.</l>
+               <l>But ſee (I break with ſpleen) that Iſle in peace</l>
+               <l>That countermines our plots, and ſtill at eaſe</l>
+               <l>Laughs at, and calms our tempeſts; and ſo well</l>
+               <l>As if not <hi>Rome</hi> but ſhe, had th' keys of hell.</l>
+               <l>Sure I'me a Prince, but ſtill ſome higher power,</l>
+               <l>Gently doth hover o're</l>
+               <l>Their bleſt abode; that let me play my part</l>
+               <l>Never ſo well it ſtill diverts my dart.</l>
+               <l>That great <hi>Armada,</hi> rigg'd ſcarce at the coſt</l>
+               <l>Of all the <hi>Indian</hi> mines; though bleſt</l>
+               <l>By my good brother, and the reſt</l>
+               <l>Of my own kindred there at <hi>Rome;</hi> nay more</l>
+               <l>Pray'd for by me (that never pray'd before)</l>
+               <l>In one day it, and with it all our hopes were loſt.</l>
+               <l>And ſhall we here (poor harmleſs ſpirits) ſit,</l>
+               <l>And never once be ſenſible of it?</l>
+               <l>Shall we in ſleepiſh ſottiſhneſs ſtill lie,</l>
+               <l>As in a ſtupid Lethargy?</l>
+               <l>Shall all our conqueſts that e're while</l>
+               <l>Aw'd heaven, ſtay at one petty Iſle?</l>
+               <l>No, let us break their peace,</l>
+               <l>And make them ſwim in bloud, as now in ſeas.</l>
+               <l>Their now-Pacifick ſea lets change</l>
+               <l>To the dead ſea: let horrour range,</l>
+               <l>And fill the wondring world with monſters ſtrange.</l>
+               <l>Let drums out-roar the Lyre</l>
+               <l>And juſtice once again to heaven retire.</l>
+               <l>But why thus ſay I (let it) it ſhall come,</l>
+               <l>I in your faces read their doom.</l>
+            </lg>
+            <pb n="6" facs="tcp:43680:5"/>
+            <lg>
+               <head>4</head>
+               <l>This ſaid an humming noiſe ſucceeds,</l>
+               <l>The ſpeech had rais'd their ſpirits higher:</l>
+               <l>They now their former ſottiſhneſs admire:</l>
+               <l>Their breaſts glow not with hells but angers fire</l>
+               <l>That rous'd the ſeeds</l>
+               <l>Of wonted wrath; ſo fire doth harmleſs lie,</l>
+               <l>Cloyſter'd in aſhes till ſome wind</l>
+               <l>Blows up the ſparks, and makes it raging ſhew its</l>
+               <l>By the effects of's wonted Tyranny.</l>
+               <l>At laſt from out the reſt <hi>Romes</hi> fury came,</l>
+               <l>Unlike her ſiſters or the brood</l>
+               <l>Of ſwarming ſins, that round her ſtood.</l>
+               <l>Her skin heavens milky way, her eyes</l>
+               <l>Seem thoſe two tapers, that adorn the skies.</l>
+               <l>Such ſymmetry in every part</l>
+               <l>That loadſtone-like they can attract the heart:</l>
+               <l>That Owls and ſuch baſe birds of night</l>
+               <l>Are raviſh'd at the ſight.</l>
+               <l>Her ſmile ſets up a Monarchy, her frown</l>
+               <l>As quickly pulls it down;</l>
+               <l>Nay Kings muſt owe to her proud feet their Crown.</l>
+               <l>Thus ſhe deludes the raviſh'd eye,</l>
+               <l>That could it ſpy,</l>
+               <l>What under that but-skin-deep beauty lie:</l>
+               <l>(Nay painted too) he'd loath what he before,</l>
+               <l>With ſuch blind worſhip did adore,</l>
+               <l>Yet to this whore;</l>
+               <l>Nations drink off <hi>Cyrcaean</hi> cups, and feaſt,</l>
+               <l>Turning from heaven to her, and ſo from man to beaſt.</l>
+               <pb n="7" facs="tcp:43680:5"/>
+               <l>Thus ſhe came forth, but all the way,</l>
+               <l>Trampled on Emperours necks that groaning lay,</l>
+               <l>Hating her now as they before did day.</l>
+               <l>On ſtill ſhe came, but with a pride,</l>
+               <l>That yielded nor to Lucifer's, or any one beſide.</l>
+               <l>For this a man may tell,</l>
+               <l>She that would rival heaven, would never yield to hell.</l>
+               <l>Then bowing with diſdain thus ſpoke;</l>
+               <l>Great Monarch, to whom earth doth homage do,</l>
+               <l>Air, ſea, men and mens ſouls too,</l>
+               <l>'Tis true we vex in vain, and this beleeve,</l>
+               <l>Both you, and I, have equal cauſe to grieve.</l>
+               <l>That Iſle before drunk with my poyſon'd wine,</l>
+               <l>At once ſhakes off your yoke and mine.</l>
+               <l>A new born light diſpels the clouds;</l>
+               <l>And with them our Religion, that ſhrouds</l>
+               <l>Her ſelf in ignorance: they ſee,</l>
+               <l>And ſeeing hate, and hating ſly</l>
+               <l>Our plots, and damned treachery.</l>
+               <l>Our Maſques took off, we can no more</l>
+               <l>Deceive their ſenſes as before.</l>
+               <l>Hypocriſie no longer takes,</l>
+               <l>Our Machiavilian Plots we draw</l>
+               <l>So ſubt'ly out, their fineneſs makes them break.</l>
+               <l>In vain we ſtrive to keep the world in awe,</l>
+               <l>In vain we like <hi>Chamelions</hi> change</l>
+               <l>To th' colour of all objects where we range:</l>
+               <l>For ſpight of envy we, I fear,</l>
+               <l>Muſt like Chamelions too go live on air.</l>
+               <l>Come, then our forces lets unite:</l>
+               <l>And though our projects fail, let not our ſpight.</l>
+               <l>My wrangling Jeſuite ſhall ſowe</l>
+               <pb n="8" facs="tcp:43680:6"/>
+               <l>Sedition, ſtrife, and whatſoe're</l>
+               <l>May a full harveſt bear,</l>
+               <l>Of murder, rapine, theft, and woe.</l>
+               <l>— Well, well!</l>
+               <l>I've a new project, and as high,</l>
+               <l>As would not ill become a Deity.</l>
+               <l>And ſince heaven will not, help me hell.</l>
+               <l>I ſcorn to kill a King: 'tis baſe, and low,</l>
+               <l>Nor fits it my brave ſoul; I'le at one blow,</l>
+               <l>King and his Nobles mow,</l>
+               <l>But not the manner how, the quickeſt ſighted know.</l>
+               <l>I'le (God-like) make the Sun ſtand ſtill amaz'd,</l>
+               <l>As once when at it <hi>Iſrael</hi> gaz'd.</l>
+               <l>Old fearfull Grandame earth ſhall quake, and flit,</l>
+               <l>As troubled with an ague fit.</l>
+               <l>Oh how I'le laugh to ſee their members fly</l>
+               <l>(As though they fought againſt the Deity)</l>
+               <l>In heavens own face: thoſe that did ſcorn to move</l>
+               <l>In lower, then in higher orbes ſhall rove:</l>
+               <l>I'le blow them up to heaven, but this I'le tell,</l>
+               <l>(My comfort) they with you, and me, ſhall backward fall to hell.</l>
+               <l>Heavens ſelf ſhall think we ope'd his door,</l>
+               <l>And ſtole from thence his chiefeſt power,</l>
+               <l>His wide-mouth'd thunder; that even he ſhall fear,</l>
+               <l>Leſt I ſhould him with his own weapons tear.</l>
+               <l>That <hi>Hydra,</hi> that we never yet could mow,</l>
+               <l>But for one head cut off there ſprang up two;</l>
+               <l>I'le cut the ſnake in parts ſo ſmall,</l>
+               <l>That he ſhall ne're again together crawl.</l>
+               <l>Help, help, ye fiends; from you, and from the fire</l>
+               <l>I muſt require</l>
+               <l>A means on this damn'd crue to wreak mine ire.</l>
+               <pb n="9" facs="tcp:43680:6"/>
+               <l>'Tis thus: under that ſtately frame</l>
+               <l>
+                  <note n="*" place="margin">Weſt minſter</note> Adorn'd with Trophies of ſtill living fame,</l>
+               <l>In caverns deep (that one might ſwear</l>
+               <l>They with your Kingdom correſpondence bear)</l>
+               <l>In theſe, inſtead of wine, I'le thruſt</l>
+               <l>Hells ſooty duſt,</l>
+               <l>That muſt</l>
+               <l>Not onely hells colour, but forces wear.</l>
+               <l>And when the King, and Nobles all ſhall meet,</l>
+               <l>And he ſhall them with hony'd phraſes greet,</l>
+               <l>And when he ſhall</l>
+               <l>Perhaps invectively againſt us fall,</l>
+               <l>I'le ſnatch a brand from hell, made of the bones</l>
+               <l>Of ſome old Papiſt; and at once</l>
+               <l>Blow up three Kingdoms into nought; and ſend</l>
+               <l>Their King to hell, his half-ſpoke ſpeech to end.</l>
+               <l>This breach once made, my Furie's all</l>
+               <l>Cloyſter'd before, I'le ſoon disband,</l>
+               <l>And turn them on th' already conquer'd land;</l>
+               <l>And with unheard of tortures on them fall.</l>
+               <l>Unto three Furies Poets give a birth,</l>
+               <l>I'le be the fourth on earth.</l>
+               <l>Heark, heark, methinks I hear</l>
+               <l>Some pleaſant Muſick ſtrike mine ear,</l>
+               <l>Better then whatſoe're</l>
+               <l>Harmonious ſounds, the deafned world counts dear.</l>
+               <l>Oh? 'tis the far-fetch'd grones of thoſe,</l>
+               <l>Whoſe haughty ſpirits ſcorn'd our yoak,</l>
+               <l>And muſt be broke</l>
+               <l>By tortures and by blows.</l>
+            </lg>
+            <pb n="10" facs="tcp:43680:7"/>
+            <lg>
+               <head>5</head>
+               <l>This ſaid the ſpirits all by a dumb Rhetorick ſhow</l>
+               <l>By ſilence, they do of the Plot allow.</l>
+               <l>Yet they though nurs'd in blood,</l>
+               <l>And i'th' profeſſion long had ſtood,</l>
+               <l>'Sham'd to be beat in their own art, they would</l>
+               <l>Have bluſh'd (if through their black they could)</l>
+               <l>Yet ſtruck they were with horrour at the firſt;</l>
+               <l>But ſtrait the thirſt</l>
+               <l>Of ſweet revenge theſe new bred fears did burſt.</l>
+               <l>Oh! how their breaſts do glow</l>
+               <l>With thoughts of this revenge; a Century of years</l>
+               <l>In hell, but the Epitome appears</l>
+               <l>Of one ſmall minute now.</l>
+               <l>And ſure ſome juſter <hi>Nemeſis</hi> had ſent,</l>
+               <l>Onely there thoughts for puniſhment:</l>
+               <l>For hells great pain</l>
+               <l>Is nothing to what they in expectation do ſuſtain.</l>
+               <l>Impatient, out they fly, and fill the earth</l>
+               <l>With ſtranger Monſters, then e're took a birth</l>
+               <l>In ſlimy <hi>Egypt;</hi> and for fear ſome eye</l>
+               <l>Should them, and their Plot too eſpy,</l>
+               <l>They turn not Aſſes in</l>
+               <l>Lyons, but Lyons in an Aſſes skin.</l>
+               <l>For well they know Aſſes go free</l>
+               <l>When Foxes oft ſuſpected be.</l>
+               <l>Turn'd to a Jeſuite here's one</l>
+               <l>That vaunts with ſtrength of words</l>
+               <l>And not of ſwords</l>
+               <l>He can plant <hi>Romes</hi> Religion.</l>
+               <pb n="11" facs="tcp:43680:7"/>
+               <l>And 'tis not ſtrange <hi>Rome</hi> can ſo ſubtly plead;</l>
+               <l>When that old Sophiſter's their head.</l>
+               <l>No wonder that Impoſter triumphs thus</l>
+               <l>We are the ſons of <hi>Eve,</hi>
+               </l>
+               <l>And he that could deceive</l>
+               <l>Our mother, quickly conquers us.</l>
+               <l>An apple tempted her, but we</l>
+               <l>Are catch'd with ſhades, and empty Pageantry.</l>
+               <l>Mean while hells fiends work in their cell</l>
+               <l>(A man might ſafely call it hell)</l>
+               <l>Hating, as did their Plot, the light;</l>
+               <l>Keeping from mens, and ſo they thought, from Gods own ſight.</l>
+               <l>And 'tis a wonder he that once durſt vie</l>
+               <l>With God himſelf for principality,</l>
+               <l>Should force his pride to ſtoop ſo low</l>
+               <l>As in mans ſhape to go:</l>
+               <l>But hence, you ſee what envy's ſelf can do.</l>
+               <l>
+                  <hi>England</hi> mean while, was lull'd aſleep</l>
+               <l>While her grand enemy did centry keep.</l>
+               <l>But watchfull heaven ſtill in their actions pries;</l>
+               <l>And never ſhuts her <hi>Galaxy</hi> of eyes.</l>
+               <l>
+                  <hi>England</hi> i'th' midſt of day was in a night,</l>
+               <l>Wandring without a light.</l>
+               <l>
+                  <hi>England</hi> was turn'd a floating Iſle,</l>
+               <l>And in a ſea of miſery did toyl,</l>
+               <l>Wandring from's knowledge far</l>
+               <l>Without or ſight of compaſs, or of Star:</l>
+               <l>When ſtrait (me thought) a ray</l>
+               <l>Deſcends from heaven, and reduces day,</l>
+               <l>And at one bleſſed ſight,</l>
+               <l>Brings them, and that damn'd Plot to light.</l>
+               <pb n="12" facs="tcp:43680:8"/>
+               <l>
+                  <hi>England</hi> was even</l>
+               <l>Sinking in woe; when ſtrait an hand from heaven</l>
+               <l>It did (and ſtill does it) from ſinking keep:</l>
+               <l>And me thought, at once it roſe from woe, and I from ſleep.</l>
+               <l>Awak'd I found my breaſt,</l>
+               <l>(Grief gone) with an unknown joy oppreſt:</l>
+               <l>When my too ſwelling joy t' aſſwage;</l>
+               <l>Raptur'd with a Poetick rage,</l>
+               <l>I burſt out in theſe words, Oh! happy Iſle,</l>
+               <l>That can like kingdoms rule ſtern fate,</l>
+               <l>That can outbrave whate're</l>
+               <l>Palſie ſtrikes others, with a Pannick fear,</l>
+               <l>That one may ſtile,</l>
+               <l>Without a wild Hyperbole, thee th' onely <hi>Fortunate.</hi>
+               </l>
+               <l>See ſmiling peace, wars horrour gone,</l>
+               <l>Doth crown our (rightly named) <hi>Albion.</hi>
+               </l>
+               <l>No Tragedies appall the eye with fear,</l>
+               <l>No thunder-imitating noiſe the ear:</l>
+               <l>The happy natives know not war,</l>
+               <l>Onely from far,</l>
+               <l>They hear it nam'd perhaps: pure Halcion days</l>
+               <l>Attends their bleſſed lives: that canker care</l>
+               <l>Corrodes not their bleſt peace: but free as air,</l>
+               <l>They chant their lays.</l>
+               <l>Each field is pure Elizian; earth doth ſeem</l>
+               <l>To rivall heaven, and ſhow</l>
+               <l>At once what all paſt ages e're did know: That one would deem</l>
+               <l>
+                  <hi>England</hi> her beautie's Magazine: where lie</l>
+               <l>Oppos'd to th' raviſh'd eye</l>
+               <l>Her ſweets contracted in one point: that <hi>Jove</hi>
+               </l>
+               <l>Seems with the earth in love,</l>
+               <pb n="13" facs="tcp:43680:8"/>
+               <l>And as to <hi>Danae</hi> powr'd,</l>
+               <l>Not gold, but flowrs, yet whatſoe're</l>
+               <l>This Letcher ſeems by this t' infer,</l>
+               <l>She is a virgin pure not yet deflowr'd.</l>
+               <l>O land thrice happy in thy bleſſed guide,</l>
+               <l>That at full tide</l>
+               <l>Of blood, and woe, did ſteer thy wandring courſe</l>
+               <l>And break thy greateſt tempeſts force.</l>
+               <l>Thou ſit'ſt above while winds do ſtorm thy fort,</l>
+               <l>And they that once thy terrour were, do now become thy ſport.</l>
+               <l>Peace doth not hover o're,</l>
+               <l>Our no longer tempeſtuous ſhore,</l>
+               <l>But take her ſeat: ſcattering her joyes amain</l>
+               <l>That one might ſwear, ſhe had brought the golden days again.</l>
+               <l>And may'ſt thou ſtill (bleſt Land) embalm'd in peace,</l>
+               <l>Securely ſit, <hi>Queen Regent</hi> of the Seas:</l>
+               <l>And may thy wooden caſtles all about,</l>
+               <l>Keep ſweet peace in; and enemies out,</l>
+               <l>And may'ſt thou be</l>
+               <l>In a true ſence called Great <hi>Britanny.</hi>
+               </l>
+               <l>And may thy glorious King loaden with praiſe,</l>
+               <l>More then with years, when Fate ſhall end his days,</l>
+               <l>(But may't be long firſt) lay his down,</l>
+               <l>As in exchange for a celeſtial Crown.</l>
+            </lg>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
